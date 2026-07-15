@@ -1,0 +1,54 @@
+# The PI's Natural Wave Equation
+## A Physics Model Without Negative or Imaginary Numbers
+
+By banning imaginary numbers ($i$) and stripping away the fiction of negative numbers ($-$), we can replace abstract coordinate lines with absolute, positive physical measurements paired with spatial directions. 
+
+Instead of subtracting, our system tracks wave dynamics using a rhythmic, physical handoff of energy between **four strictly positive tracking meters**.
+
+---
+
+## 1. The Variables (Pure, Positive Quantities)
+
+The state of our guitar string at any position $x$ is defined by four meters that are always greater than or equal to zero ($u, v \ge 0$):
+
+| Variable | What It Tracks | Physical Meaning |
+| :--- | :--- | :--- |
+| $u_{\text{up}}$ | **Upward Stretch** | How many inches the string is stretched **Up** from the center line. |
+| $u_{\text{down}}$ | **Downward Stretch** | How many inches the string is stretched **Down** from the center line. |
+| $v_{\text{up}}$ | **Upward Velocity** | The speed of the string moving **Up** (in inches per second). |
+| $v_{\text{down}}$ | **Downward Velocity** | The speed of the string moving **Down** (in inches per second). |
+
+---
+
+## 2. The New System of Equations
+
+Because we cannot use minus signs, we write our system as a set of **balancing instructions**. If a force wants to push the string down, it doesn't subtract from $v_{\text{up}}$—it adds directly to the $v_{\text{down}}$ meter.
+
+### Rule A: The Height Shift (Tracking Position)
+* **If** $v_{\text{up}} > 0 \implies$ Increase $u_{\text{up}}$
+* **If** $v_{\text{down}} > 0 \implies$ Increase $u_{\text{down}}$
+
+> **The Rule:** Upward speed feeds the Upward stretch; Downward speed feeds the Downward stretch.
+
+### Rule B: The Tension Tug (Tracking Velocity)
+Curvature naturally tries to pull the string back to the center line:
+* $\text{Curvature of } u_{\text{up}} \implies$ Increase $v_{\text{down}}$
+* $\text{Curvature of } u_{\text{down}} \implies$ Increase $v_{\text{up}}$
+
+> **The Rule:** A sharp curve pointing Up creates a physical acceleration Down. A sharp curve pointing Down creates a physical acceleration Up.
+
+---
+
+## 3. Pluck Simulation (Step-by-Step)
+
+Let's initiate a wave at time $t = 0$ by pinching the middle of the string, pulling it Up by exactly $1.0\text{ inch}$, and holding it perfectly still.
+
+### The Initial Setup
+* $u_{\text{up}} = 1.0$ (at the peak)
+* $u_{\text{down}} = 0.0$
+* $v_{\text{up}} = 0.0$
+* $v_{\text{down}} = 0.0$
+
+```text
+          /\ (u_up = 1.0)
+_________/  \_________  (Center Line)
