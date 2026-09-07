@@ -1,4 +1,4 @@
-# Paul-s-PI-Projects
+# Paul-s-PYE-Projects
 Ò PROTECTED OPEN-SOURCE
 PROTOCOL
 NOTICE: This repository contains proprietary
@@ -12,7 +12,7 @@ modifications, and complete source
 schematics are also made public under the
 exact same copyleft license. Patenting any
 portion of these concepts is strictly prohibited.
-Original Author: P.I. (The Constant) aka Paul Young Eun
+Original Author: PYE (The Constant) aka Paul Young Eun
 Proof of Possession: Verified via immutable
 cryptographic SHA-256 timestamping (see
 LICENSE file for hashes).
